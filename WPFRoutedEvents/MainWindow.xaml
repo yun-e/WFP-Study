@@ -1,0 +1,21 @@
+﻿<Window x:Class="WPFRoutedEvents.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFRoutedEvents"
+        xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="525"
+        MouseDown="Window_MouseDown" MouseLeftButtonDown="Window_MouseLeftButtonDown"
+        MouseLeftButtonUp="Window_MouseLeftButtonUp" MouseUp="Window_MouseUp"
+        PreviewMouseDown="Window_PreviewMouseDown" PreviewMouseLeftButtonDown="Window_PreviewMouseLeftButtonDown"
+        PreviewMouseLeftButtonUp="Window_PreviewMouseLeftButtonUp" PreviewMouseUp="Window_PreviewMouseUp">
+
+    <Grid MouseLeftButtonDown="Grid_MouseLeftButtonDown" PreviewMouseDown="Grid_PreviewMouseDown"
+          PreviewMouseLeftButtonDown="Grid_PreviewMouseLeftButtonDown"
+          PreviewMouseLeftButtonUp="Grid_PreviewMouseLeftButtonUp" PreviewMouseUp="Grid_PreviewMouseUp"
+          MouseDown="Grid_MouseDown" MouseLeftButtonUp="Grid_MouseLeftButtonUp" MouseUp="Grid_MouseUp"
+          Background="White">
+    </Grid>
+</Window>
