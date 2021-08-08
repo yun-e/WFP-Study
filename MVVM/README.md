@@ -14,6 +14,7 @@
  - View가 사용할 메서드와 필드를 구현하고 View에게 상태 변화를 알림 (View는 ViewModel의 상태변화를 Observing)
 
 ## 장단점
+
 ###장점
  - ViewModel이 Model과 View 사이를 Binding 하기 때문에 변경이 생겼을 때 변경을 최소화할 수 있음
  - Model(데이터)과 ViewModel(Binder)이 View(화면)로부터 독립적
