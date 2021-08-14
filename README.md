@@ -6,6 +6,7 @@
 ### WPF
  - MVVM(Model-View-ViewModel Pattern)
     ##### - Button Click Event [(MVVM_SimpleButtonClick)](https://github.com/yun-e/WFP-Study/tree/master/MVVM/MVVM_SimpleButtonClick)
-    ##### - TextBox Binding [(MVVM_ExtremelySimpleMemoApp)](https://github.com/yun-e/WFP-Study/tree/master/MVVM/MVVM_ExtremelySimpleMemoApp)
+    ##### - TextBox Binding [(MVVM_ListViewFilter)](https://github.com/yun-e/WFP-Study/tree/master/MVVM/MVVM_ListViewFilter)
+    ##### - ListBox Filter [(MVVM_ExtremelySimpleMemoApp)](https://github.com/yun-e/WFP-Study/tree/master/MVVM/MVVM_ExtremelySimpleMemoApp)
 <br>
  - Routed Events(Bubbling & Tunneling) [(WPFRoutedEvents)](https://github.com/yun-e/WFP-Study/tree/master/WPFRoutedEvents)
